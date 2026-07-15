@@ -1,0 +1,248 @@
+%------------------------
+% Resume Template
+% Author : Ome Tiwari
+% Github : https://github.com/xtroon
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,10pt]{article}
+\usepackage{lmodern}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true, urlcolor=black]{hyperref}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\vspace{3pt}
+
+\textbf{{\Huge Ome Tiwari}} &
+\href{mailto:ometiwari.ai@gmail.com}{ometiwari.ai@gmail.com}
+\textbar\ 
++91 8114491829 \\
+
+{\small\bfseries CSE Undergraduate | Full-Stack Developer} &
+\underline{\href{https://xtroon.vercel.app}{Portfolio}}
+\textbar\ 
+\underline{\href{https://leetcode.com/u/omtiwari0/}{LeetCode}}
+\textbar\ 
+\underline{\href{https://github.com/xtroon}{GitHub}}
+\textbar\ 
+\underline{\href{https://www.linkedin.com/in/ometiwari-ai/}{LinkedIn}} \\
+
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{ \textbf{Education}}
+\vspace{5pt}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{MBM University}{Jodhpur, Rajasthan}
+{Bachelor of Engineering in Computer Science; CGPA: 7.94/10}
+{Aug 2024 - Jul 2028}
+\vspace{-5pt}
+
+\item {\normalsize \textbf{Relevant Coursework:} Data Structures \& Algorithms, Database Management Systems, Object-Oriented Programming, Computer Networks}
+
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+
+%-----------SKILLS-----------------
+\section{\textbf{Skills Summary}}
+\vspace{5pt}
+
+\resumeSubHeadingListStart
+
+\resumeSubItem{Languages}{~~~~~~~Python, C, C++, JavaScript (ES6)}
+
+\resumeSubItem{Frontend}{~~~~~~~~~React.js, HTML5, CSS3, Tailwind CSS}
+
+\resumeSubItem{Backend}{~~~~~~~~~~Node.js, Express.js, REST APIs, WebSocket}
+
+\resumeSubItem{Databases}{~~~~~~~~MongoDB, PostgreSQL, MySQL}
+
+\resumeSubItem{Tools}{~~~~~~~~~~~~~~~Git, GitHub, Postman, Vercel, Firebase, Supabase, JWT Authentication}
+
+\resumeSubItem{Core Concepts}{~Client-Server Architecture, Authentication, RESTful APIs, WebSocket Communication}
+
+
+\resumeSubHeadingListEnd
+\vspace{0pt}
+
+
+
+%-----------Experience-----------------
+\section{\textbf{Experience}}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+\resumeSubheading
+{\mbox{\href{https://drive.google.com/file/d/1Ft0DEokZVvmM-lrBns6iLHZNaBr_1lM0/view?usp=sharing}{\color{black}Binary29}}}
+{Nov 2025 - Feb 2026}
+{Software Development Intern (Full-Stack)}
+{Hybrid}
+    \vspace{-4pt}
+    \resumeItemListStart
+        \item Developed a \textbf{full-stack} e-commerce platform for \textbf{Swadeshika} using Next.js, Tailwind CSS, and responsive frontend architecture.
+        \item Designed and integrated RESTful APIs using Node.js and Express.js to streamline inventory management for \textbf{100+ organic products.}
+        \item Implemented JWT-based authentication and scalable MySQL schemas to enable secure user management and \textbf{role-based access control.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+
+%-----------PROJECTS-----------------
+\section{\textbf{Projects}}
+\vspace{5pt}
+\resumeSubHeadingListStart
+
+\item
+\textbf{NearSwap} $|$ \emph{React Native, Node.js, Firebase Authentication, Firebase Cloud Messaging (FCM), Supabase}
+\hfill
+\href{https://nearswap.netlify.app/}{\underline{Live}}
+
+\vspace{-6pt}
+
+\resumeItemListStart
+\item Developed a cross-platform marketplace application using React Native and Expo, facilitating item exchange among 50+ students within the college community.
+\item Implemented secure user authentication and onboarding workflows using Firebase Authentication.
+\item Enhanced user engagement through Firebase Cloud Messaging (FCM) by enabling real-time push notifications for marketplace activities.
+\resumeItemListEnd
+
+
+\vspace{-2pt}
+
+\item
+\textbf{Real-Time Chat Application} $|$ \emph{HTML, CSS, JavaScript, Node.js, Express.js, WebSocket}
+\hfill
+\href{https://realtime-chat-application-8u95.onrender.com}{\underline{Live}} $|$
+\href{https://github.com/xtroon/Realtime-Chat-Application}{\underline{GitHub}}
+
+\vspace{-6pt}
+
+\resumeItemListStart
+\item Developed a browser-based chat application enabling seamless communication between users through WebSocket technology.
+\item Engineered a Node.js and Express.js backend to manage concurrent client connections and real-time message broadcasting.
+\item Validated application scalability and low-latency performance through live testing with 20+ concurrent users.
+\resumeItemListEnd
+
+
+\vspace{-2pt}
+
+\item
+\textbf{Image Download Extension} $|$ \emph{JavaScript, HTML, CSS, Chrome Extension API}
+\hfill
+\href{https://github.com/xtroon/Image-Downloader-Extension}{\underline{GitHub}}
+
+\vspace{-6pt}
+
+\resumeItemListStart
+\item Built a Chrome extension capable of detecting and downloading images from web pages through automated extraction workflows.
+\item Utilized Chrome Extension APIs to automate image extraction and download workflows.
+\item Built a lightweight and user-friendly interface to improve browsing productivity.
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+\vspace{0pt}
+
+
+
+
+
+%-----------Awards-----------------
+\section{ \textbf{Achievements}}
+\vspace{5pt}
+\begin{description}[font=$\bullet$]
+
+\item {\textbf{Solved 500+ algorithmic problems} across 
+\textbf{LeetCode} and 
+\textbf{CodeChef}, demonstrating strong proficiency in Data Structures, Algorithms, and problem solving.}
+\vspace{-2pt}
+
+\item {Recognized as a \textbf{National Finalist} in the 
+{National Entrepreneurship Challenge (NEC)} organized by 
+\textbf{E-Cell, IIT Bombay}. \href{https://drive.google.com/file/d/1Ywirt-1Focep9TYrMrswJX-rUCcVo8ma/view}{[\underline{Certificate}]}}
+\vspace{-2pt}
+
+\item {Completed the 
+\textbf{Meta Frontend Developer Certification}, specializing in responsive web design, modern frontend architecture.\href{https://www.coursera.org/account/accomplishments/verify/ZA9L4SC3QXDX}{[\underline{Certificate}]}}
+
+\end{description}
+
+\vspace{-2pt}
+
+
+\end{document}
